@@ -1,5 +1,7 @@
 # Sources and Source Policy
 
+
+> **Navigation:** [README](README.md) · [Scope](SCOPE.md) · [Why PPG](WHY_PPG.md) · [Claims](CLAIMS_UNDER_TEST.md) · [Pressure Test](PRESSURE_TEST.md) · [Questions](QUESTIONS.md) · [Sources](SOURCES.md)
 This public call is intentionally thin.
 
 It should not become a second authority for Koali or any other kOA subsystem.
@@ -8,209 +10,129 @@ It should not become a second authority for Koali or any other kOA subsystem.
 
 ## Source rule
 
-The Civilizational Coherence source registry uses the following default logic:
+The source discipline used across the supplied Civilizational Coherence corpus is:
 
 ```text
-Interpretive document
+interpretive document
         ↓
 live repository / documentation
         ↓
 current default branch
 ```
 
-For an actual publication audit or formal pressure-test result, the exact reviewed commit should also be recorded.
+For a publication audit or real pressure-test result, additionally record the exact reviewed commit.
 
-The distinction matters:
+> **Reference, do not replicate.**
 
-> **Documented ≠ Implemented ≠ Tested ≠ Validated**
-
----
-
-# Koali / kOA-Linux
-
-**Live repository**
-
-https://github.com/Rejean-McCormick/kOA-Linux
-
-The Civilizational Coherence source registry identifies `kOA-Linux / Koali` as the live implementation reference for:
-
-- local runtime;
-- sovereignty;
-- offline operation;
-- integration environment.
-
-## Canonical areas most relevant to this call
-
-### Constitutional charter
-
-`docs/01-constitution/00-charter.md`
-
-Covers the constitutional frame for authority, component/data separation, profile choices, offline continuity, external integrations, AI boundaries, audit/recourse, portability/exit, and related global principles.
-
-### Scope and non-goals
-
-`docs/01-constitution/01-scope-and-non-goals.md`
-
-Especially relevant to:
-
-- preventing scope inflation;
-- keeping optional integrations optional;
-- avoiding universal AI requirements;
-- preventing profile-specific choices from becoming global by repetition;
-- ensuring removal of optional integrations does not collapse unrelated capabilities.
-
-### Explicit authority
-
-`docs/01-constitution/04-explicit-authority.md`
-
-Relevant to authority ownership and prevention of silent authority inference.
-
-### Component separation
-
-`docs/01-constitution/07-component-separation.md`
-
-Relevant to logical responsibility, component boundaries, and authoritative ownership.
-
-### Data authority and ownership
-
-`docs/01-constitution/08-data-authority-and-ownership.md`
-
-Relevant to data-domain ownership and cross-component mutation boundaries.
-
-### Safe degradation
-
-`docs/01-constitution/06-safe-degradation.md`
-
-Relevant to capability-scoped failure rather than uncontrolled total failure.
-
-### Offline continuity
-
-`docs/01-constitution/09-offline-continuity.md`
-
-Relevant to declared local/offline behavior.
-
-### Selective audit and recourse
-
-`docs/01-constitution/10-selective-audit-and-recourse.md`
-
-Relevant to accountability without universal exposure.
-
-### Portability, restore and exit
-
-`docs/01-constitution/11-portability-restore-and-exit.md`
-
-Relevant to migration, restoration, replacement, and credible exit.
-
-### Profile model
-
-`docs/03-profiles/00-profile-model.md`
-
-Relevant to required / optional / conditional / prohibited / not-applicable capability classification and deterministic profile composition.
-
-### External integrations
-
-`docs/02-system/16-external-integrations.md`
-
-Relevant to integration classification, authority, data transfer, failure behavior, and removal.
-
-### AI boundaries
-
-`docs/02-system/09-ai-boundary.md`  
-`docs/02-system/10-external-ai-surfaces.md`
-
-Relevant to external AI as bounded, removable, non-native authority.
-
-### Receipts and critical transitions
-
-`docs/02-system/20-receipts-and-critical-transitions.md`
-
-Relevant to reconstructibility of authorization, execution, commit, publication, external transfer, lifecycle, and other critical transitions.
+> **Documented ≠ Implemented ≠ Tested ≠ Validated.**
 
 ---
 
-# Other kOA implementation references
+# Canonical ecosystem routing
 
-These may participate in a test composition but remain authoritative in their own repositories.
+## 1. Koali / kOA-Linux — object under test
 
-## Kristal
+**Repository:** [Rejean-McCormick/kOA-Linux](https://github.com/Rejean-McCormick/kOA-Linux)
 
-https://github.com/Rejean-McCormick/kristal-framework
+Current public status in the repository: **normative target architecture; implementation validation required**.
 
-Portable, versioned, provenance-bearing knowledge artifacts.
+The live repository explicitly says that it owns the local operating boundary while independently documented systems retain authority over their own domains. It also documents optional/replaceable experience layers, safe degradation, offline continuity, explicit authority, component separation, selective disclosure, and portability/exit.
 
-## Konnaxion
+### Primary documentation directories
 
-https://github.com/Rejean-McCormick/Konnaxion
-
-Coordination, contribution, governance, deliberation, and related civic capabilities.
-
-## Orgo
-
-https://github.com/Rejean-McCormick/Orgo
-
-Decision-to-execution, routing, cases, tasks, escalation, closure, and operational memory.
-
-## SemantiK Architect
-
-https://github.com/Rejean-McCormick/SemantiK_Architect
-
-Structured and deterministic language realization.
-
-## SenTient
-
-https://github.com/Rejean-McCormick/SenTient
-
-Ambiguity, uncertainty, and proposition-handling implementation material.
-
-## K-Port
-
-https://github.com/Rejean-McCormick/K-Port
-
-Identity / credential / portability-related implementation material; scope should be verified per claim.
+- [Governance](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/00-governance)
+- [Constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution)
+- [System architecture](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system)
+- [Deployment profiles](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/03-profiles)
+- [Components and subsystem boundaries](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/04-components)
+- [Security](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/07-security)
+- [Operations](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/08-operations)
+- [Conformance](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/09-conformance)
 
 ---
 
-# Partners for Public Good
+## 2. kOA Digital Ecosystem — technical context above Koali
 
-All PPG descriptions in this repository should be based on official PPG sources.
+**Repository:** [Rejean-McCormick/kOA_Digital_Ecosystem](https://github.com/Rejean-McCormick/kOA_Digital_Ecosystem)
 
-## Our Work
+Use this for the technical system-of-systems context linking knowledge, coordination, decision, execution, and memory.
 
-https://partnersforpublicgood.org/our-work/
+It is **not** treated here as a complete representation of the broader kOA cultural, narrative, philosophical, and metaphysical corpus.
 
-PPG describes its focus on the core government levers of budgeting, procurement, technology, and staffing, with support through implementation, policy, talent, community, and learning.
+---
 
-## PPG Tech — Designing the Human Help that Government Technology Needs in the AI Era
+## 3. Independently governed systems that may participate in a Koali composition
 
-https://partnersforpublicgood.org/news-events/designing-the-human-help-that-government-technology-needs-in-the-ai-era/
+These systems remain authoritative in their own repositories.
 
-Denise Linn Riedl describes PPG Tech's 2026 discovery work with government technology leaders, vendors, nonprofits, and funders, including problems around technology procurement, cross-team collaboration, governance, vendor accountability, AI, and supported technology testing. The article describes PPG Tech's intent to provide vendor-neutral implementation/governance assistance, support pilots, mediate product feedback, add capacity, measure what works, and undertake government demonstration projects.
+- [Kristal Framework](https://github.com/Rejean-McCormick/kristal-framework) — portable, versioned, provenance-bearing knowledge artifacts.
+- [Konnaxion](https://github.com/Rejean-McCormick/Konnaxion) — public coordination, contribution, governance, deliberation, and related civic capabilities.
+- [Orgo](https://github.com/Rejean-McCormick/Orgo) — organizational routing, cases, tasks, escalation, closure, and operational continuity.
+- [SemantiK Architect](https://github.com/Rejean-McCormick/SemantiK_Architect) — structured multilingual / language-realization implementation.
+- [SenTient](https://github.com/Rejean-McCormick/SenTient) — language/entity processing implementation; use only when a pressure-test claim actually depends on it.
+
+The call deliberately does **not** enumerate every kOA repository. A system belongs here only when it is relevant to the institutional test.
+
+---
+
+# Partners for Public Good — official sources
+
+The PPG-specific framing in this repository was checked against official PPG pages on **2026-08-17**.
+
+## PPG — Our Work
+
+[Official page](https://partnersforpublicgood.org/work/)
+
+PPG describes its focus on core government levers including budgeting, procurement, technology, and staffing, supported through implementation, policy, talent, community, and learning.
+
+## PPG Tech
+
+[Official technology page](https://partnersforpublicgood.org/work/technology/)
+
+PPG Tech describes public-sector technology work around operational excellence, data governance, enterprise AI change management, IT capacity, hands-on support, partnerships, and products.
+
+## PPG Tech — field discovery and operating model
+
+[Designing the Human Help that Government Technology Needs in the AI Era](https://partnersforpublicgood.org/news/designing-the-human-help-that-government-technology-needs-in-the-ai-era/)
+
+Denise Linn Riedl describes discovery with more than 75 government technology leaders, vendors, peer nonprofits, and funders. The article identifies problems around technology procurement, cross-team collaboration, governance, vendor accountability, AI, and supported technology testing, and describes PPG Tech's plans for vendor-neutral implementation/governance assistance, pilots, product feedback, capacity, measurement, and direct government demonstration projects.
+
+## PPG Tech — why back-office convergence matters
+
+[PPG Tech: Our Next Step to Power Effective Government](https://partnersforpublicgood.org/news/ppg-tech-our-next-step-to-power-effective-government/)
+
+PPG describes a government case where procurement, legal, budget, accounting, and technology failures interacted across silos, and frames technology as a core part of the government back-office operating system.
+
+## Responsible AI procurement
+
+[Purchasing Responsible AI: Balancing Innovation, Risk, & Accountability](https://partnersforpublicgood.org/procurement-excellence-network/event/purchasing-responsible-ai-balancing-innovation-risk-accountability/)
+
+PPG's Procurement Excellence Network addresses evaluation of AI vendors, transparency, accountability, data use, vendor commitments versus marketing claims, and responsible purchasing.
 
 ## Denise Linn Riedl
 
-https://partnersforpublicgood.org/team/denise-linn-riedl/
+[Official profile](https://partnersforpublicgood.org/about/team/denise-linn-riedl/)
 
 Head of Public Sector Technology at PPG.
 
 ## Emily Binet Royall
 
-https://partnersforpublicgood.org/team/emily-binet-royall/
+[Official profile](https://partnersforpublicgood.org/about/team/emily-binet-royall/)
 
-Assistant Director overseeing the Procurement Excellence Network; her background includes public-interest technology, strategic procurement, smart cities, and responsible AI.
+Assistant Director overseeing the Procurement Excellence Network; her background includes public-interest technology, strategic procurement, governance, smart cities, and responsible AI.
 
 ---
 
-# Verification discipline
+# Verification discipline for a real pressure test
 
-This call makes an architectural proposition, not a maturity claim.
-
-Before a real pressure test:
+Before any result is presented as evidence:
 
 1. record the Koali commit under review;
 2. record the relevant profile and contract versions;
 3. identify which claims are only documented;
 4. identify which claims have implementation evidence;
 5. identify which claims have tests;
-6. identify which claims have external validation, if any.
+6. identify which claims have external validation, if any;
+7. preserve the institution's pre-existing systems and authority model as part of the test record.
 
 The pressure-test result should preserve those distinctions.

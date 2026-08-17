@@ -1,5 +1,7 @@
 # Claims Under Test
 
+
+> **Navigation:** [README](README.md) · [Scope](SCOPE.md) · [Why PPG](WHY_PPG.md) · [Claims](CLAIMS_UNDER_TEST.md) · [Pressure Test](PRESSURE_TEST.md) · [Questions](QUESTIONS.md) · [Sources](SOURCES.md)
 Koali is a large technical architecture.
 
 A pressure test becomes useful only when broad architectural language is translated into claims that can fail.
@@ -25,8 +27,8 @@ A broad operating environment can support many deployment contexts **without sil
 
 ### Canonical areas
 
-- `docs/01-constitution/01-scope-and-non-goals.md`
-- `docs/03-profiles/00-profile-model.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `01-scope-and-non-goals.md`
+- [Koali profiles](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/03-profiles) → `00-profile-model.md`
 
 ---
 
@@ -53,8 +55,8 @@ A heterogeneous environment can preserve a clear distinction between:
 
 ### Canonical areas
 
-- `docs/01-constitution/04-explicit-authority.md`
-- `docs/02-system/20-receipts-and-critical-transitions.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `04-explicit-authority.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `20-receipts-and-critical-transitions.md`
 
 ---
 
@@ -75,9 +77,9 @@ Systems can integrate without one component silently becoming the owner of anoth
 
 ### Canonical areas
 
-- `docs/01-constitution/07-component-separation.md`
-- `docs/02-system/04-component-boundaries.md`
-- `docs/02-system/07-cross-component-communication.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `07-component-separation.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `04-component-boundaries.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `07-cross-component-communication.md`
 
 ---
 
@@ -98,9 +100,9 @@ An external vendor, cloud service, AI provider, or application can fail or be re
 
 ### Canonical areas
 
-- `docs/01-constitution/01-scope-and-non-goals.md`
-- `docs/02-system/16-external-integrations.md`
-- `docs/03-profiles/00-profile-model.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `01-scope-and-non-goals.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `16-external-integrations.md`
+- [Koali profiles](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/03-profiles) → `00-profile-model.md`
 
 ---
 
@@ -121,9 +123,9 @@ Useful AI assistance can coexist with an institutional core that does not silent
 
 ### Canonical areas
 
-- `docs/02-system/09-ai-boundary.md`
-- `docs/02-system/10-external-ai-surfaces.md`
-- `docs/00-governance/07-ai-read-write-protocol.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `09-ai-boundary.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `10-external-ai-surfaces.md`
+- [Koali governance docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/00-governance) → `07-ai-read-write-protocol.md`
 
 ---
 
@@ -145,8 +147,8 @@ Important institutional transitions can be reconstructed later **without logging
 
 ### Canonical areas
 
-- `docs/02-system/20-receipts-and-critical-transitions.md`
-- `docs/01-constitution/10-selective-audit-and-recourse.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `20-receipts-and-critical-transitions.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `10-selective-audit-and-recourse.md`
 
 ---
 
@@ -167,10 +169,10 @@ A deployment can lose an external capability while preserving unrelated valid lo
 
 ### Canonical areas
 
-- `docs/01-constitution/06-safe-degradation.md`
-- `docs/01-constitution/09-offline-continuity.md`
-- `docs/02-system/17-capability-degradation.md`
-- `docs/03-profiles/12-sovereign-offline.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `06-safe-degradation.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `09-offline-continuity.md`
+- [Koali system docs](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/02-system) → `17-capability-degradation.md`
+- [Koali profiles](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/03-profiles) → `12-sovereign-offline.md`
 
 ---
 
@@ -192,7 +194,7 @@ An institution can preserve meaningful data, authority records, and operational 
 
 ### Canonical areas
 
-- `docs/01-constitution/11-portability-restore-and-exit.md`
+- [Koali constitution](https://github.com/Rejean-McCormick/kOA-Linux/tree/main/docs/01-constitution) → `11-portability-restore-and-exit.md`
 
 ---
 

@@ -1,11 +1,15 @@
 # Scope of the Public Call
 ## kOA is the broader work. Koali is the test object.
 
+
+> **Navigation:** [README](README.md) · [Scope](SCOPE.md) · [Why PPG](WHY_PPG.md) · [Claims](CLAIMS_UNDER_TEST.md) · [Pressure Test](PRESSURE_TEST.md) · [Questions](QUESTIONS.md) · [Sources](SOURCES.md)
 This distinction is essential.
 
 ## kOA
 
 **kOA** is the broader initiative and body of work.
+
+For the technical system-of-systems view, see the [kOA Digital Ecosystem](https://github.com/Rejean-McCormick/kOA_Digital_Ecosystem) repository. That repository is an architectural entry point, not a complete representation of the wider cultural, narrative, philosophical, and metaphysical kOA corpus.
 
 Its public corpus spans several connected domains, including:
 
@@ -84,7 +88,7 @@ Those are different questions with different evidence requirements.
 
 ## Relationship to other kOA systems
 
-Kristal, Konnaxion, Orgo, SmartVote, SemantiK Architect, SenTient, K-Port, and other systems may be composed with or referenced by Koali.
+[Kristal](https://github.com/Rejean-McCormick/kristal-framework), [Konnaxion](https://github.com/Rejean-McCormick/Konnaxion), [Orgo](https://github.com/Rejean-McCormick/Orgo), [SemantiK Architect](https://github.com/Rejean-McCormick/SemantiK_Architect), [SenTient](https://github.com/Rejean-McCormick/SenTient), and other independently documented systems may be composed with or referenced by Koali.
 
 That does not make them mandatory Koali dependencies or automatically place them inside this test.
 

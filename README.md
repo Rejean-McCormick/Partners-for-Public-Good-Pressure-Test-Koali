@@ -1,12 +1,17 @@
 # Partners for Public Good: Pressure-Test Koali
 
+**Status:** Open public call  
+**Version:** 1.0  
+**Published:** 2026-08-17  
+**PPG public sources last checked:** 2026-08-17
+
 > **Independent public call. This repository does not imply affiliation, endorsement, partnership, or participation by Partners for Public Good.**
 
 Partners for Public Good is building a public-sector technology practice around hands-on implementation and governance support, supported technology pilots, product feedback, vendor accountability, and learning from what works in real government environments.
 
 Koali makes concrete architectural claims in exactly that terrain.
 
-I am putting those claims in public and asking PPG to attack them.
+I am putting those claims in public and asking PPG to challenge them under real institutional constraints.
 
 > **Partners for Public Good: pressure-test Koali against government reality.**
 
@@ -62,6 +67,40 @@ That discipline is central to the pressure test.
 
 ---
 
+## How this repository connects to the existing ecosystem
+
+This repo is intentionally **not** another kOA or Koali documentation center.
+
+```text
+Partners for Public Good public problem space
+                    ↓
+          this public call / test frame
+                    ↓
+      Koali / kOA-Linux — object under test
+                    ↓
+     ┌──────────────┼──────────────┐
+     ↓              ↓              ↓
+  Kristal       Konnaxion        Orgo
+ knowledge      coordination     execution
+     └──────────────┼──────────────┘
+                    ↓
+      independently governed systems
+```
+
+**Canonical routes:**
+
+- [Koali / kOA-Linux](https://github.com/Rejean-McCormick/kOA-Linux) — the operating environment being pressure-tested.
+- [kOA Digital Ecosystem](https://github.com/Rejean-McCormick/kOA_Digital_Ecosystem) — technical system-of-systems context; not the full kOA cultural/philosophical universe.
+- [Kristal Framework](https://github.com/Rejean-McCormick/kristal-framework) — governed knowledge artifacts.
+- [Konnaxion](https://github.com/Rejean-McCormick/Konnaxion) — public coordination and civic capabilities.
+- [Orgo](https://github.com/Rejean-McCormick/Orgo) — organizational execution and operational continuity.
+
+Other subsystems remain governed by their own repositories and should only enter a test when the selected government workflow actually requires them.
+
+> **Reference the source that owns the claim. Do not make this repo the new owner.**
+
+---
+
 ## Why PPG
 
 PPG Tech's current public work is unusually relevant because it is explicitly concerned with the human and operational problems around government technology: cross-department collaboration, strategic procurement, AI governance, government/vendor relationships, supported pilots, implementation capacity, and measuring what works.
@@ -104,6 +143,17 @@ If Koali cannot model those constraints without excessive complexity, the archit
 → [Proposed pressure-test method](PRESSURE_TEST.md)
 
 → [Hard questions](QUESTIONS.md)
+
+### Repository map
+
+| Document | Purpose |
+|---|---|
+| [SCOPE.md](SCOPE.md) | Establishes the boundary: kOA is the broader work; Koali is the institutional test object |
+| [WHY_PPG.md](WHY_PPG.md) | Shows why PPG's current public work creates a serious test environment |
+| [CLAIMS_UNDER_TEST.md](CLAIMS_UNDER_TEST.md) | Converts Koali architecture into claims that can fail |
+| [PRESSURE_TEST.md](PRESSURE_TEST.md) | Defines a workflow-first stress-test method |
+| [QUESTIONS.md](QUESTIONS.md) | Lists the questions most likely to expose weak assumptions |
+| [SOURCES.md](SOURCES.md) | Routes every technical or PPG claim back to its canonical source |
 
 ---
 

@@ -1,6 +1,8 @@
 # Proposed Pressure Test
 ## Government technology environment, not a Koali showcase
 
+
+> **Navigation:** [README](README.md) · [Scope](SCOPE.md) · [Why PPG](WHY_PPG.md) · [Claims](CLAIMS_UNDER_TEST.md) · [Pressure Test](PRESSURE_TEST.md) · [Questions](QUESTIONS.md) · [Sources](SOURCES.md)
 This document proposes a method, not a predetermined pilot.
 
 The test should begin from an existing government workflow and constraints, then ask whether Koali can represent them without forcing them into a Koali-shaped answer.
@@ -101,13 +103,13 @@ A useful candidate is the lifecycle of a government technology or AI purchase:
 
 This naturally introduces cross-functional and vendor boundaries.
 
-Selected kOA systems may be used if the real workflow benefits from them:
+Selected independently governed systems may be used if the real workflow benefits from them:
 
-- **Kristal** for governed knowledge / provenance;
-- **Konnaxion / SmartVote** for structured evaluation or consultation;
-- **Orgo** for operational execution.
+- [**Kristal**](https://github.com/Rejean-McCormick/kristal-framework) for governed knowledge / provenance;
+- [**Konnaxion**](https://github.com/Rejean-McCormick/Konnaxion) for structured coordination, consultation, or decision-support capabilities defined by that system;
+- [**Orgo**](https://github.com/Rejean-McCormick/Orgo) for operational execution.
 
-They are not required.
+They are not required, and this repository does not redefine their behavior.
 
 A government can retain existing systems and use them as external integrations or independent components.
 

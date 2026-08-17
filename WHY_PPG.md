@@ -1,5 +1,7 @@
 # Why Partners for Public Good
 
+
+> **Navigation:** [README](README.md) · [Scope](SCOPE.md) · [Why PPG](WHY_PPG.md) · [Claims](CLAIMS_UNDER_TEST.md) · [Pressure Test](PRESSURE_TEST.md) · [Questions](QUESTIONS.md) · [Sources](SOURCES.md)
 The use of PPG's name in this repository is deliberate.
 
 This is a public call addressed to a specific organization because its current work creates a strong test environment for Koali's claims.
@@ -12,7 +14,7 @@ It is not a claim that PPG agrees.
 
 PPG says it helps state and local governments improve core operational functions including **technology, procurement, budgeting, and staffing**.
 
-PPG Tech's 2026 public materials describe recurring problems heard from government technology leaders, vendors, nonprofits, and funders:
+PPG Tech's 2026 [technology practice](https://partnersforpublicgood.org/work/technology/) and [field-discovery account](https://partnersforpublicgood.org/news/designing-the-human-help-that-government-technology-needs-in-the-ai-era/) describe recurring problems heard from government technology leaders, vendors, nonprofits, and funders:
 
 - technology procurement and governance remain difficult;
 - cross-team collaboration is a persistent constraint;
@@ -21,7 +23,7 @@ PPG Tech's 2026 public materials describe recurring problems heard from governme
 - AI creates governance, workforce, procurement, and change-management questions;
 - government teams need practical implementation capacity, not only strategy.
 
-PPG Tech's response is explicitly hands-on and vendor-neutral: work alongside government teams, support pilots, mediate product feedback, add implementation capacity, and measure what works.
+PPG Tech's response is explicitly hands-on and vendor-neutral: work alongside government teams, support pilots, mediate product feedback, add implementation capacity, and measure what works. Its public materials also say the team is undertaking direct government demonstration projects and is eager to engage new partners.
 
 That is unusually compatible with the kind of criticism Koali needs.
 
@@ -91,3 +93,12 @@ Those conclusions would be useful.
 The point of calling on PPG is not that PPG is expected to agree.
 
 It is that PPG is positioned to identify forms of institutional reality the architecture must survive.
+
+
+---
+
+## Strongest current PPG signal
+
+PPG's own description of its technology expansion is unusually close to the systems premise Koali is meant to face: a recent government case crossed procurement, legal, budget, accounting, and technology, while those functions remained in separate lanes. PPG describes the back office as succeeding or struggling as a unit and technology as a core part of that operating system.
+
+Source: [PPG Tech: Our Next Step to Power Effective Government](https://partnersforpublicgood.org/news/ppg-tech-our-next-step-to-power-effective-government/)

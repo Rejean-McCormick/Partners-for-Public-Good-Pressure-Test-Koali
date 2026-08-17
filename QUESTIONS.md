@@ -1,5 +1,7 @@
 # Hard Questions for Koali
 
+
+> **Navigation:** [README](README.md) · [Scope](SCOPE.md) · [Why PPG](WHY_PPG.md) · [Claims](CLAIMS_UNDER_TEST.md) · [Pressure Test](PRESSURE_TEST.md) · [Questions](QUESTIONS.md) · [Sources](SOURCES.md)
 These are the questions I would want PPG to answer, replace, or sharpen.
 
 ## 1. What does Koali misunderstand about government?
